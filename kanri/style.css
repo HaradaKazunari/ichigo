@@ -1,0 +1,139 @@
+.bg-img{
+    background-image: url("img/gbjpg.jpg");
+}
+body{
+    color:#222;
+    background-image: url("img/gbjpg.jpg");
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+
+}
+a{
+    color: #222;
+}
+a:hover{
+    text-decoration: none;
+    color:#ff4d4d;
+}
+input{
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.table_head{
+    font-size: 28px;
+}
+table{
+    width: 100%;
+    font-size: 28px;
+}
+th,td{
+    padding-bottom: 28px;
+    text-align: center;
+}
+/* .calender_selecter{
+    border: #fff solid 1px;
+    border-radius: 50px ;
+} */
+.calender_selecter:hover{
+    color:#ff4d4d;
+}
+.btn{
+    width: auto !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:none;
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: #ff4d4d;
+}
+.btn-primary:hover{
+    background-color: #be3939;
+}
+.card{
+    width: 1300px;
+    height: auto;
+    max-width: 90%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    border:none;
+    font-size:20px;
+    font-weight: bold;
+}
+.card .about{
+    margin: 1rem;
+}
+.card .about h2{
+    margin-left: 2rem;
+}
+.card .card-body .form_line{
+    width: 60%;
+    margin: 0 auto;
+}
+.card .btn_window{
+    width: 100%;
+}
+.card .errorMessage{
+    color:rgb(151, 255, 65);
+    font-size: 16px;
+}
+.card .hidden{
+    display: none;
+}
+.card input{
+    width: 100%;
+    margin-bottom: 1.3rem;
+}
+.card .btn{
+    margin-top: 1.5rem;
+}
+
+.calender_form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timetable_frame{
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    font-size:25px;
+}
+.timetable_frame .time_head{
+    width: 50%;
+}
+.timetable_frame .yoyaku_button{
+    width: 50%;
+}
+.timetable_frame .btn{
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px){
+    .card{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .card .hidden{
+        display: inline;
+    }
+    .card .card-body .form_line{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .card .about{
+        text-align: center;
+    }
+    .card .card-body .form_line{
+        width: 90%;
+    }
+}
+

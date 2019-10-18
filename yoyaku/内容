@@ -1,0 +1,11 @@
+index.php  ->  アカウント登録(登録完了画面も表示)  ->  tourou.csv
+    |
+login.php  ->  $_SESSION['ichigo_gair_user_id']にユーザID格納
+    |
+calender.php  ->  カレンダーから日付を選択。 
+    |
+yoyaku.php  ->  時間を選択し人数を入力  ->  timetable_and_number.csvを読み込む
+    |
+yoyaku_kakunin.php -> 内容確認ページ
+    |
+yoyaku_touroku.php  ->  登録完了ページ  ->  yoyaku.csvにユーザID、時間、日付、人数を保存する予定

@@ -1,5 +1,6 @@
 .bg-img{
     background-image: url("img/gbjpg.jpg");
+    height: 100vh;
 }
 body{
     color:#fff;
@@ -8,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
+    height: 100vh;
 
 }
 a{
@@ -76,6 +78,8 @@ th,td{
 .card .btn_window{
     width: 100%;
 }
+
+
 .card .errorMessage{
     color:rgb(151, 255, 65);
     font-size: 16px;
